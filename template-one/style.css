@@ -1,0 +1,431 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar {
+    padding: 10px calc((100% / 2) - 39%) !important;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+    width: 100%;
+
+    .navbar-brand {
+        font-size: 27px;
+        font-weight: 600;
+    }
+
+    .navbar-nav {
+        .nav-item {
+            margin: 0px 6px;
+
+            .nav-link {
+                font-weight: 400;
+                cursor: pointer;
+                color: black;
+            }
+        }
+    }
+
+    .btn_section button {
+        padding: 6px 10px;
+        margin-left: 10px;
+        background-color: rgb(0, 0, 175);
+        color: white;
+        outline: none;
+        border: none;
+        border-radius: 20px;
+    }
+}
+
+
+.home_section {
+    .content_section {
+        padding-left: calc((100% / 2) - 39%) !important;
+
+        p {
+            margin-bottom: 10px;
+        }
+
+        h1 {
+            font-size: 3.5rem;
+        }
+
+        p.home_section_content {
+            font-size: 1.2rem;
+        }
+    }
+
+    .img-fluid {
+        max-width: 40%;
+    }
+
+    /* this is button */
+    .btn_home_getStarted {
+        padding: 12px 30px;
+        background-color: rgb(0, 0, 175);
+        color: white;
+        outline: none;
+        border: none;
+        border-radius: 20px;
+    }
+}
+
+.about-us h1 {
+    font-size: 3.5rem;
+}
+
+.roatary-test {
+    margin-top: 100px;
+    padding: 10px calc((100% / 2) - 39%) !important;
+
+    .inner_box {
+        background-color: orange;
+        padding: 13px;
+        border-radius: 7px;
+
+        i {
+            color: white;
+            font-size: 20px;
+        }
+    }
+
+    h1 {
+        width: 780px;
+        font-size: 2.5rem;
+    }
+}
+
+.company-service-section {
+    margin-top: 100px;
+
+    h1.heading {
+        font-size: 3.5rem;
+    }
+
+    img {
+        max-width: 100%;
+    }
+
+    .row-img {
+        margin-top: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+
+        .item {
+            margin: 0px 10px;
+            width: 300px;
+        }
+    }
+}
+
+.company-comparision {
+    background-color: rgb(255 252 240);
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+    margin: 100px calc((100% / 2) - 39%) 0px calc((100% / 2) - 39%) !important;
+    padding: 50px;
+    border-radius: 30px;
+
+    .first_section_content {
+        width: 70%;
+        padding-right: 20px;
+
+        h1 {
+            font-size: 2rem;
+        }
+
+        p {
+            font-size: 0.8rem;
+            text-align: justify;
+        }
+
+        button {
+            padding: 12px 30px;
+            background-color: rgb(0, 0, 175);
+            color: white;
+            outline: none;
+            border: none;
+            border-radius: 20px;
+        }
+    }
+
+    .seconde_section_content {
+        margin-left: 30px;
+
+        .item {
+            padding: 10px;
+
+            p {
+                font-size: 1.2rem;
+                margin-bottom: 0px;
+
+                i {
+                    margin-right: 10px;
+                }
+            }
+
+            h1 {
+                font-size: 2.5rem;
+                font-weight: 700;
+            }
+        }
+    }
+}
+
+.image-gallery {
+    margin-top: 70px;
+    padding: 20px calc((100% / 2) - 39%) !important;
+
+    .header_section {
+        margin-bottom: 20px;
+
+        button {
+            padding: 12px 30px;
+            background-color: rgb(0, 0, 175);
+            color: white;
+            outline: none;
+            border: none;
+            border-radius: 20px;
+        }
+    }
+
+    .images_section {
+        img {
+            max-width: 100%;
+            margin-bottom: 12px;
+            padding: 0px;
+            border: none;
+            border-radius: 15px;
+            box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+        }
+    }
+}
+
+.info_section {
+    /* margin-top: 100px; */
+    h1 {
+        font-size: 2.2rem;
+        margin-bottom: 50px;
+        text-align: center;
+    }
+
+    background-color: rgb(255 252 240);
+    padding: 30px;
+
+    button {
+        padding: 12px 30px;
+        background-color: rgb(0, 0, 175);
+        color: white;
+        outline: none;
+        border: none;
+        border-radius: 20px;
+    }
+}
+
+.help_section {
+    padding: 20px calc((100% / 2) - 39%) !important;
+    background-color: rgba(245, 241, 241, 0.42);
+    margin-top: 100px;
+    padding-bottom: 20px;
+
+    .acording_section {
+        width: 100%;
+    }
+
+    img {
+        width: 50%;
+        height: auto;
+    }
+}
+
+.footer_section {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px calc((100% / 2) - 39%) !important;
+    background-color: rgb(10, 18, 78);
+
+    .footer_inner_section {
+        width: 100%;
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        color: white;
+
+
+        h1 {
+            font-size: 1.2rem;
+        }
+
+        ul {
+            padding: 0px;
+            list-style-type: none;
+
+            li {
+                margin: 10px 0px;
+            }
+        }
+    }
+
+    .second_inner_footer {
+        margin-top: 20px;
+        padding-top: 20px;
+        border-top: 1px solid white;
+        display: flex;
+        width: 100%;
+        color: white;
+        align-items: center;
+        justify-content: space-between;
+
+        span {
+            background-color: white;
+            color: rgb(10, 18, 78);
+            padding: 5px 10px;
+            border-radius: 4px;
+        }
+    }
+
+}
+
+
+@media only screen and (max-width: 1200px) {
+    .home_section {
+        .content_section {
+            h1 {
+                font-size: 2.1rem;
+            }
+
+            p.home_section_content {
+                font-size: 0.9rem;
+            }
+        }
+    }
+
+    .about-us h1 {
+        font-size: 2.1rem;
+    }
+
+    .roatary-test {
+        flex-direction: column;
+        padding: 10px calc((100% / 2) - 39%) !important;
+
+        .inner_box {
+            background-color: orange;
+            padding: 13px;
+            border-radius: 7px;
+
+            i {
+                color: white;
+                font-size: 20px;
+            }
+        }
+
+        h1 {
+            width: auto;
+            font-size: 2.1rem;
+            margin-bottom: 40px;
+        }
+    }
+
+    .company-service-section {
+        h1.heading {
+            font-size: 2.1rem;
+        }
+    }
+
+}
+
+@media only screen and (max-width: 768px) {
+    .home_section {
+        .content_section {
+            h1 {
+                font-size: 1.7rem;
+            }
+
+            p.home_section_content {
+                font-size: 0.7rem;
+            }
+        }
+    }
+
+    .about-us h1 {
+        font-size: 1.7rem;
+    }
+
+    .company-service-section {
+        h1.heading {
+            font-size: 1.7rem;
+        }
+    }
+
+
+    .company-comparision {
+        padding: 40px;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+        .first_section_content {
+            width: 100%;
+
+            button {
+                width: 100%;
+            }
+        }
+
+        .seconde_section_content {
+            margin-left: 0px;
+            justify-content: center;
+            align-items: center;
+            margin-top: 20px;
+        }
+    }
+
+    .help_section { 
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .home_section {
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+        padding: 10px calc((100% / 2) - 39%) !important;
+
+        .content_section {
+            padding-left: 0px !important;
+        }
+
+        .btn_home_getStarted {
+            width: 100%;
+        }
+
+        .img-fluid {
+            max-width: 100%;
+        }
+    }
+
+    .about-us h1 {
+        font-size: 1.7rem;
+    }
+}
+.youtubers__row {
+    text-align: center;
+}
+
+.youtubers__row iframe {
+    border-radius: 10px;
+    width: 100%; /* Make the video fill the container */
+    max-width: 1000px; /* Limit maximum width */
+    height: 500px; /* Fixed height */
+}
+
+/* Media Query for mobile devices */
+@media only screen and (max-width: 768px) {
+    .youtubers__row iframe {
+        height: 300px; /* Adjust height for smaller screens */
+        text-align: center;
+    }
+}
